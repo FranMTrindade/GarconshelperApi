@@ -21,17 +21,18 @@ model User {
   @@map("users")
 }
 
-model Categoria{
+
+model Category{
   id String @id @default(uuid())
   name String
   created_at DateTime? @default(now())
   updated_at DateTime? @default(now())
 
-  @@map("categorias")
-  produtos Produto[]
+  @@map("categories")
+  produtos Product[]
 }
 
-model Produto{
+model Product{
   id String @id @default(uuid())
   name String
   price String
@@ -40,9 +41,9 @@ model Produto{
   created_at DateTime? @default(now())
   updated_at DateTime? @default(now())
 
-  categoria Categoria @relation(fields: [categoria_id], references: [id])
+  categoria Category @relation(fields: [categoria_id], references: [id])
 
-  @@map("produtos")
+  @@map("products")
   categoria_id String
   items Item[]
 }
@@ -67,7 +68,7 @@ model Item{
   updated_at DateTime? @default(now())
 
   order Order @relation(fields: [order_id], references: [id])
-  produto Produto @relation(fields: [product_id], references: [id])
+  product Product @relation(fields: [product_id], references: [id])
 
   @@map("items")
   order_id String
