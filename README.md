@@ -5,7 +5,7 @@ API rest desenvolvida com typescript
 # Pra que serve?
 
 Essa api foi desenvolvida para ser consumida tanto a aplicação Garçons Helper Mobile como a Garçons Helper Web
-e consiga fazer suas ações, como, fazer cadastros de usúarios, produtodos, e mostrar os pedidose os garçons fizeram 
+e consiga fazer suas ações, como, fazer cadastros de usuários, produtodos, e mostrar os pedidos que os garçons fizeram 
 utilizando a aplicação mobile.
 
 # Banco de dados
