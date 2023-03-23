@@ -10,11 +10,11 @@ utilizando a aplicação mobile.
 
 # Banco de dados
 
-Para o banco de dados foi utlizado PostgreSQL  junto com o prisma para criar as tabelas
+Para o banco de dados foi utlizado PostgreSQL  junto com o prisma para criar as tabelas.
 
 # Requisições HTTP
 
-A API funciona fazendo requisoções HTTP e para testar seus funcionamentos antes de implementar o frontend foi utilizado o Insomnia
+A API funciona fazendo requisoções HTTP e para testar seus funcionamentos antes de implementar o frontend foi utilizado o Insomnia.
 
 
 
